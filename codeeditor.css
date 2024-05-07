@@ -105,6 +105,9 @@ label{
 /*-------------------------- Responsive for mobiles -----------------------*/
 /* For mobile devices */
 @media only screen and (max-width: 600px) {
+    *{
+      overflow-x:  hidden;
+    }
     .container {
       flex-direction: column; 
     }
@@ -127,7 +130,17 @@ label{
     iframe {
       height: 45vh; 
     }
+
+    nav .header{
+      font-size: 20px;
+    }
+
+    .animated-text, span{
+      font-size: 20px;
+    }
   }
+
+  
 
   /*------------------------------- Social Media Icons ------------------------------------*/
   
